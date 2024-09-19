@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.layout {
+  @apply max-w-[1280px] lg:max-w-[1400px] mx-auto;
+}
+
+.component-padding {
+  @apply lg:py-[80px] py-[75px] lg:px-4 px-6;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #1ca8cb;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after,
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  @apply text-[#1ca8cb];
+}
+.swiper-button-prev,
+.swiper-button-next {
+  @apply text-[#1ca8cb];
+}
